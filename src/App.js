@@ -93,6 +93,7 @@ function App() {
           <p>Posted by: ShafaUllah Malik</p>
         </div>
       </div>
+      <h4>Example</h4>
 
       <Link to="/home">Home</Link> -<Link to="/about">About</Link>
 
