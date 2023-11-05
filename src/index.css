@@ -5,13 +5,57 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+ 
+  background: linear-gradient(to right, rgb(242, 112, 156), rgb(255, 148, 114));
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-.App{
+.post-header {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.post-title {
+  font-size: 24px;
+  margin: 5px 0;
+}
+
+.post-date {
+  color: #777;
+  margin: 0;
+}
+
+.post-content {
+  line-height: 1.6;
+  color: white;
+  font-size: 25px;
+}
+.ans{
+  color: white;
+  font-size: 25px;
+  margin: 10px auto;
+}
+
+.codimg1 img{
  
+    max-width: 45%; /* The image will not exceed its original size */
+    max-height: 200px; /* Maximum height of 200 pixels */
+
+}
+.codimg2 img{
+  max-width: 50%; /* The image will not exceed its original size */
+  max-height: 200px;
+}
+img{
+  max-width: 80%; /* The image will not exceed its original size */
+  max-height: 200px;
+}
+
+.post-footer {
+  text-align:center;
+  margin-top: 10px;
+  color: #555;
 }
